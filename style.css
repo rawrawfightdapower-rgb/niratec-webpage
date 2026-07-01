@@ -132,6 +132,15 @@ a {
     box-shadow: 0 4px 6px rgba(0,0,0,0.05);
 }
 
+/* カード内の画像設定 */
+.card img {
+    width: 100%;        /* カードの横幅いっぱいに広げる */
+    height: 200px;      /* 高さを固定（必要に応じて調整） */
+    object-fit: cover;  /* 画像を歪ませずに枠に合わせて切り抜く */
+    border-radius: 4px; /* 角を少し丸くする */
+    margin-bottom: 15px;/* タイトルとの間に隙間を作る */
+}
+
 .card h3 {
     margin-bottom: 15px;
     color: #1a2d42;
